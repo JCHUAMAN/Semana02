@@ -9,7 +9,7 @@ public class ejercicio2 {
         System.out.println("Introduce el capital inicial:");
         double capitalInicial = entrada.nextDouble();
 
-        System.out.println("Introduce la tasa de interés anual (en porcentaje, por ejemplo, 5 para 5%):");
+        System.out.println("Introduce la tasa de interés anual (%):");
         double tasaInteres = entrada.nextDouble() / 100;
 
         System.out.println("Introduce el número de años:");
