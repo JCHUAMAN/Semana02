@@ -19,8 +19,8 @@ public static void main (String[] args){
     if (d<0){
     System.out.println("No existen soluciones reales");
     }else {
-       x1=(-b+Math.sqrt(d)/ (2*a));
-       x2=(-b-Math.sqrt(d)/ (2*a));
+       x1=(-b+Math.sqrt(d))/ (2*a);
+       x2=(-b-Math.sqrt(d))/ (2*a);
             System.out.println("solucion: " + x1);
             System.out.println("solucion: " + x2);
             
